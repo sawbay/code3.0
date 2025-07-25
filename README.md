@@ -39,3 +39,6 @@ Example Use Case: Self-Improving Code Generator
 - Each attempt is logged and used to fine-tune future decisions.
 
 ## Code 3.0 framework
+Code 3.0 framework helps you to build Code 3.0 program, coordinate with other Code 3.0 programs to build a complete solution for you business needs.
+
+
