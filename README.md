@@ -31,4 +31,11 @@ Build steps:
     - Use: A vector database (e.g., Chroma, Weaviate), JSON or SQLite
     - To store: Past attempts, Lessons learned, Evaluation scores
 
+Example Use Case: Self-Improving Code Generator
+- User: "Write a Python script that scrapes prices from a website."
+- LLM writes first version.
+- Script runs, fails.
+- LLM is shown the error and rewrites the code.
+- Each attempt is logged and used to fine-tune future decisions.
+
 ## Code 3.0 framework
