@@ -52,3 +52,12 @@ orchestrator = Orchestrator(agent=agent)
 orchestrator.run()
 ```
 
+## Self-improvement
+While running or developing the application, its logics could be grown. For example:
+- Expense app that tracks user's expenses and record it into database or memory. 
+- Users list out today's expenses and see there is one mistaken expense, he/she wants to delete it. However, the program doesn't have delete feature. Now it's improving itself by adding that new feature, and update the prompt and its tool/API.
+
+
+
+
+
